@@ -2,7 +2,9 @@
 
 [![Build Status](https://travis-ci.org/ShangtongZhang/reinforcement-learning-an-introduction.svg?branch=master)](https://travis-ci.org/ShangtongZhang/reinforcement-learning-an-introduction)
 
-Python code for Sutton & Barto's book [*Reinforcement Learning: An Introduction (2nd Edition)*](http://incompleteideas.net/book/the-book-2nd.html)
+Sutton & Barto's book [*Reinforcement Learning: An Introduction (2nd Edition)*](http://incompleteideas.net/book/the-book-2nd.html)의 예제를 Python으로 구현한 코드입니다.
+
+[ShangtongZhang](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)의 코드를 fork해서 추가 설명 및 jupyter notebook으로 구현 중입니다. 코드 스타일은 [dennybritz](https://github.com/dennybritz/reinforcement-learning)와 [ShangtongZhang](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)를 참고하였습니다. 
 
 > If you have any confusion about the code or want to report a bug, please open an issue instead of emailing me directly.
 
