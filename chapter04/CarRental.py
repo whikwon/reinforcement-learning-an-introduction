@@ -152,8 +152,11 @@ def expectedReturn(state, action, stateValue):
 newStateValue = np.zeros((MAX_CARS + 1, MAX_CARS + 1))
 improvePolicy = False
 policyImprovementInd = 0
+l = 0
 while True:
     if improvePolicy == True:
+        l += 1
+        print(l)
         # start policy improvement
         print('Policy improvement', policyImprovementInd)
         policyImprovementInd += 1

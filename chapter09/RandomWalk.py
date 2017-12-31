@@ -442,7 +442,7 @@ def figure9_10():
     plt.legend()
 
 figure9_1()
-figure9_2()
-figure9_5()
-figure9_10()
+# figure9_2()
+# figure9_5()
+# figure9_10()
 plt.show()

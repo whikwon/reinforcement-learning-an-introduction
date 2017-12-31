@@ -81,7 +81,7 @@ def monteCarlo(states, alpha=0.1, batch=False):
 
 # Figure 6.2 left
 def stateValue():
-    episodes = [0, 1, 10, 100]
+    episodes = [0, 1, 10, 100, 1000]
     currentStates = np.copy(states)
     plt.figure(1)
     axisX = np.arange(0, 7)

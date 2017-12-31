@@ -74,14 +74,17 @@ from six.moves import zip_longest
 
 def tiles (ihtORsize, numtilings, floats, ints=[], readonly=False):
     """returns num-tilings tile indices corresponding to the floats and ints"""
+    # 위치, 속도에 대한 정보를 받아서 numtiling을 곱해준 뒤 버림한다.
     qfloats = [floor(f*numtilings) for f in floats]
     Tiles = []
+    # tiling : 각 tiling 번호
     for tiling in range(numtilings):
         tilingX2 = tiling*2
         coords = [tiling]
         b = tiling
         for q in qfloats:
             coords.append( (q + b) // numtilings )
+            # 속도에 대해서는 왜 tilingX2를 더해서 처리하는거지?
             b += tilingX2
         coords.extend(ints)
         Tiles.append(hashcoords(coords, ihtORsize, readonly))
