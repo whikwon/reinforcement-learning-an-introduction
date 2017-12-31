@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ShangtongZhang/reinforcement-learning-an-introduction.svg?branch=master)](https://travis-ci.org/ShangtongZhang/reinforcement-learning-an-introduction)
 
-Python code for Sutton & Barto's book [*Reinforcement Learning: An Introduction (2nd Edition)*](http://incompleteideas.net/sutton/book/the-book-2nd.html)
+Python code for Sutton & Barto's book [*Reinforcement Learning: An Introduction (2nd Edition)*](http://incompleteideas.net/book/the-book-2nd.html)
 
 > If you have any confusion about the code or want to report a bug, please open an issue instead of emailing me directly.
 
@@ -107,4 +107,6 @@ Following are known missing figures/examples:
 * Figure 12.14: The effect of λ (I don't have time to replicate it for now)
 * Chapter 14 & 15 are about psychology and neuroscience
 * Chapter 16: Backgammon, The Acrobot, Go
+
+A Jupyter Notebook version is being developed by [Kulbear](https://github.com/Kulbear) now, completed chapters are available in the [notebook](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction/tree/notebook) branch.
 
