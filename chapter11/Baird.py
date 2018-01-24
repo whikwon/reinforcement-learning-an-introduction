@@ -332,7 +332,7 @@ def figure11_7():
 if __name__ == '__main__':
     figure11_2_a()
     figure11_2_b()
-    figure11_6_a()
-    figure11_6_b()
-    figure11_7()
+    # figure11_6_a()
+    # figure11_6_b()
+    # figure11_7()
     plt.show()

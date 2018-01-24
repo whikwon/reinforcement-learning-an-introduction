@@ -87,6 +87,7 @@ def tiles (ihtORsize, numtilings, floats, ints=[], readonly=False):
             # 속도에 대해서는 왜 tilingX2를 더해서 처리하는거지?
             b += tilingX2
         coords.extend(ints)
+        # hashcoords를 통해서 사용하는 tile #를 구한다.
         Tiles.append(hashcoords(coords, ihtORsize, readonly))
     return Tiles
 

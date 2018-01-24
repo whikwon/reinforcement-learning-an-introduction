@@ -231,7 +231,7 @@ def figure10_2():
     figureIndex += 1
     for i in range(0, len(alphas)):
         plt.plot(steps[i], label='alpha = '+str(alphas[i])+'/'+str(numOfTilings))
-    plt.xlabel('Episode')
+    plt.xlabel('Episode').
     plt.ylabel('Steps per episode')
     plt.yscale('log')
     plt.legend()
@@ -300,10 +300,10 @@ def figure10_4():
     plt.ylabel('Steps per episode')
     plt.legend()
 
-figure10_1()
-figure10_2()
+# figure10_1()
+# figure10_2()
 figure10_3()
-figure10_4()
+# figure10_4()
 plt.show()
 
 
