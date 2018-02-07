@@ -24,7 +24,7 @@ Sutton & Barto's book [*Reinforcement Learning: An Introduction (2nd Edition)*](
 ### Chapter 5
 
 - [Blackjack](https://nbviewer.jupyter.org/github/whikwon/reinforcement-learning-an-introduction/blob/master/chapter05/blackjack.ipynb)
-- [Infinite variance](https://nbviewer.jupyter.org/github/whikwon/reinforcement-learning-an-introduction/blob/master/chapter05/infinite_variance.ipynb)
+- [Infinite variance](https://nbviewer.jupyter.org/github/whikwon/reinforcement-learning-an-introduction/blob/master/chapter05/infinite_ variance.ipynb)
 
 ### Chapter 6
 
