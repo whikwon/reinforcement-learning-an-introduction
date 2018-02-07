@@ -6,6 +6,38 @@ Sutton & Barto's book [*Reinforcement Learning: An Introduction (2nd Edition)*](
 
 [ShangtongZhang](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)의 코드를 fork해서 추가 설명 및 jupyter notebook으로 구현 중입니다. 코드 스타일은 [dennybritz](https://github.com/dennybritz/reinforcement-learning)와 [ShangtongZhang](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)를 참고하였습니다. 
 
+아래 목록은 제 코드 목록이며 NBViewer 링크가 걸려있습니다. 
+
+### Chapter 2
+
+- [Multi-armed bandit](https://nbviewer.jupyter.org/github/whikwon/reinforcement-learning-an-introduction/blob/master/chapter02/multi_armed_bandit.ipynb)
+
+### Chapter 3 
+
+- [Gridworld](https://nbviewer.jupyter.org/github/whikwon/reinforcement-learning-an-introduction/blob/master/chapter03/gridworld.ipynb)
+
+### Chapter 4 
+
+- [Gambler's problem](https://nbviewer.jupyter.org/github/whikwon/reinforcement-learning-an-introduction/blob/master/chapter04/gamblersproblem.ipynb)
+- [Gridworld](https://nbviewer.jupyter.org/github/whikwon/reinforcement-learning-an-introduction/blob/master/chapter04/gridworld.ipynb)
+
+### Chapter 5
+
+- [Blackjack](https://nbviewer.jupyter.org/github/whikwon/reinforcement-learning-an-introduction/blob/master/chapter05/blackjack.ipynb)
+- [Infinite variance](https://nbviewer.jupyter.org/github/whikwon/reinforcement-learning-an-introduction/blob/master/chapter05/infinite_variance.ipynb)
+
+### Chapter 6
+
+- [Cliff walking](https://nbviewer.jupyter.org/github/whikwon/reinforcement-learning-an-introduction/blob/master/chapter06/cliff_walking.ipynb)
+
+- [Windy gridworld](https://nbviewer.jupyter.org/github/whikwon/reinforcement-learning-an-introduction/blob/master/chapter06/windy_gridworld.ipynb)
+
+  ​
+
+더 자세한 내용 또는 원 작성자의 코드를 보시려면 아래 내용을 참조해주세요.
+
+***
+
 > If you have any confusion about the code or want to report a bug, please open an issue instead of emailing me directly.
 
 # Contents 
